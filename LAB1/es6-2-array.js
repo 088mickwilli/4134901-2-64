@@ -56,3 +56,29 @@ console.log(over10);
 function over10fn(value){
     return value > 15
 }
+
+let sum = numbs.reduce(addNumb)
+
+function addNumb(total,value){
+    return total + value;
+}
+console.log(sum);
+//check every value
+let over18 = numbs.every(over18fn);
+function over18fn(value){
+return value > 10;
+}
+console.log(over18);
+
+let someOver10 = numbs.some(over10fn)
+console.log(someOver10);
+
+let first = numbs.find(over10fn)
+console.log(first);
+
+let firstIndex = numbs.findIndex(over10fn);
+console.log(firstIndex);
+
+const alphabet = "ABCDEF";
+let arrAlpha = Array.from(alphabet);
+console.log(arrAlpha);
