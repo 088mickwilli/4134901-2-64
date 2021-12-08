@@ -6,7 +6,12 @@ import List from "./components/List";
 import Brand from "./components/UL";
 import Datatable from "./components/Table"
 
-ReactDOM.render(<><Car age="25" eye="black" /> <List /></>,document.getElementById("root"));
+ReactDOM.render(<><Car age="25" eye="black" /> 
+<List />
+<Brand/>
+<Datatable/>
+</>
+,document.getElementById("root"));
 
 
 

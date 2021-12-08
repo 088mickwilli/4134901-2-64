@@ -1,4 +1,4 @@
-function clickme() {
+function clickMe() {
     return alert("Hello...");
 }
 
@@ -9,7 +9,7 @@ function RenderTable(brandNames) {
             <tr>
                 <td>{id}</td>
                 <td>{brand}</td>
-                <td><button onClick={()=>clickme()}>OK</button></td>
+                <td><button onClick={()=>clickMe()}>OK</button></td>
             </tr>
         )
     });
