@@ -24,7 +24,7 @@ func Learn()  {
 	fmt.Println(james.name)
 	fmt.Println(students[1].name)
 
-	v := Vertex{4.20,5.1}
+	v := Vertex{5.20,5.1}
 	fmt.Printf("%v",v.Area())
 
 	fmt.Println(v)
