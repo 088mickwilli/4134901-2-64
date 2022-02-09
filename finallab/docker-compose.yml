@@ -13,6 +13,8 @@ services:
 
   go-api:
     build: ./backend
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
     volumes:
       - ./backend:/app
     ports:
@@ -26,6 +28,8 @@ services:
   react-app:
     container_name: react
     build: ./frontend
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
     volumes:
       - ./frontend/src:/app/src
       - ./frontend/public/assets:/app/public/assets
