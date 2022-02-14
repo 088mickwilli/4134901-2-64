@@ -1,9 +1,9 @@
 function MyName() {
     return (
     <div className="MyName">
-    <div>ททิทากานต์ อาจทวีกุล
+    <div>มิควิลลี่ บาร์เทลส์
     </div>
-    <div>610112418010</div>
+    <div>630112418088</div>
     </div>
 
     );
